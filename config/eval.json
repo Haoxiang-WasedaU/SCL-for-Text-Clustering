@@ -1,0 +1,12 @@
+{
+    "mode": "eval",
+    "max_seq_length": 128,
+    "eval_batch_size": 16,
+    "do_lower_case": true,
+    "data_parallel": true,
+    "need_prepro": false,
+    "model_file": "results/save/model_steps_6250.pt",
+    "eval_data_dir": "data/train_bert",
+    "vocab":"BERT_Base_Uncased/vocab.txt",
+    "task": "imdb"
+}

@@ -1,0 +1,38 @@
+{
+    "seed": 42,
+    "lr": 2e-5,
+    "warmup": 0.1,
+    "do_lower_case": true,
+    "mode": "train_eval",
+    "uda_mode": true,
+
+    "total_steps": 10000,
+    "max_seq_length": 128,
+    "train_batch_size": 20,
+    "eval_batch_size": 64,
+
+    "unsup_ratio": 1,
+    "uda_coeff": 1,
+	"tsa": "linear_schedule",
+    "uda_softmax_temp": 0.85,
+    "uda_confidence_thresh": 0.45,
+
+    "data_parallel": true,
+    "need_prepro": false,
+    "sup_data_dir": "data/train_id",
+    "eval_data_dir": "data/test_id",
+
+    "cnn_model_file": null,
+    "task": "imdb",
+
+    "save_steps": 1000,
+    "check_steps": 20,
+    "results_dir": "cnn_results",
+
+    "is_hard": "hard",
+    "kernel_size": [2, 3, 5, 7, 9, 11],
+    "n_filters": 200,
+    "p_drop_hidden": 0.1,
+
+    "glove": "pred_trained"
+}
