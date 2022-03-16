@@ -20,13 +20,11 @@ This is code of paper of IEEE SMC 2021:"A Simple and Effective Usage of Self-sup
   
 ## Pre-works
 
-#### - Download pre-trained BERT model and unzip IMDb data
-First, you have to download pre-trained BERT_base from Google's BERT repository. And unzip IMDb data
-
-    bash download.sh
+#### - Download pre-trained BERT model 
+First, you have to download pre-trained BERT_base from Google's BERT repository. 
 After running, you can get the pre-trained BERT_base_Uncased model at **/BERT_Base_Uncased** director and **/data**
 
-prepare dataset: Reuters,20newsgroup, stackoverflow, SearchSnippets
+preparing datasets: Reuters,20newsgroup, stackoverflow, SearchSnippets
 
 ## Example usage
  Please install the required package
